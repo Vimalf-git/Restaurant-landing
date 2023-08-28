@@ -1,0 +1,419 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+.maincl {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+}
+
+.navbar {
+    height: 15vh;
+}
+
+.hotmeal {
+    color: #FFB30E;
+    font-family: 'Qwigley', cursive;
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.address>h4 {
+    font-size: .7em;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+}
+
+.navbtncomponent {
+    position: relative;
+    bottom: .5em;
+}
+
+.navBtn {
+    width: 7em;
+    height: 2.5em;
+}
+
+.userIcon {
+    position: absolute;
+    left: .5em;
+    top: .7em;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    background-color: #FDBE35;
+    height: 70vh;
+}
+
+.banner-r {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bantxt1 {
+    font-weight: 400;
+    font-family: 'Qwigley', cursive;
+    color: #ffff;
+    width: 100%;
+    font-size: 88px;
+    margin-left: 2em;
+}
+
+.bantxt2 {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    width: 100%;
+    font-size: 22px;
+    color: #504F4F;
+    margin-left: 7em;
+}
+
+.card1 {
+    background-color: #ffff;
+    position: relative;
+    left: 5em;
+    width: 100%;
+    height: 5em;
+}
+
+.btn.bikecl {
+    background-color: #ecd6c9;
+    width: 8em;
+    color: #F17228;
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 700;
+    position: relative;
+
+}
+
+.btn.bikeicon::before {
+    content: url(./Images/header/bikeicon.svg);
+    position: absolute;
+    left: .3em;
+    top: .5em;
+}
+
+.btn.bikecl:hover {
+    color: #F17228;
+}
+
+.btn.pickcl {
+    position: relative;
+    color: #757575;
+    width: 8em;
+
+}
+
+.btn.pickupicon::before {
+    content: url(./Images/header/lockicon.svg);
+    position: absolute;
+    left: 1em;
+    top: .5em;
+
+}
+
+.inputsec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+.map-icon{
+    background-color:  #F5F5F5;
+    position: relative;
+    left: 1em;
+    height: auto; 
+    width: 2.5em;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.inbox {
+    border: 0px solid;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 60%;
+    height: 8vh;
+}
+.inbox::before{
+    content: url(./Images/header/map-marker-alt.svg);
+}
+.btn.searchicon {
+    background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+    padding: 12px 48px;
+    border-radius: 4px;
+    width: 28%;
+    height: 8vh;
+    font-weight: 400;
+    color: #ffff;
+    position: relative;
+}
+
+.btn.searchicon::before {
+    content: url(./Images/header/search2.svg);
+    position: absolute;
+    left: 2em;
+}
+
+.banner-l {
+    width: 40%;
+}
+
+.bananaimg {
+    height: 15em;
+}
+
+.cardbtn.btn-light {
+    background: #F1722833;
+    color: #F17228;
+    font-weight: 700;
+
+}
+
+.cardbtn.btn-light:hover {
+    background: #F1722833;
+}
+
+.sec2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-p {
+
+    color: #F17228;
+}
+
+.card2 {
+    width: 60%;
+    height: 20vh;
+    background-color: #ffff;
+}
+
+.updateicons {
+    height: 8vh;
+}
+
+.card2-p {
+
+    color: linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%);
+}
+
+.discount {
+    width: 33%;
+}
+
+.lineicon {
+    height: 60px;
+    color: #CFCFCF;
+}
+
+.sec3content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #f0ece5;
+}
+
+.foodmenu>div>img {
+
+    width: 8em;
+}
+
+.foodmenu>div>p {
+    position: relative;
+    left: 2.5em;
+    margin-top: 1em;
+}
+
+.sec4 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.sec4-con-l {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4-card {
+    width: 50%;
+}
+
+.btn.sec4-btn {
+    width: 100%;
+    color: #ffff;
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+    font-weight: 700;
+
+}
+
+.btn.arrow-icon::before {
+    content: url(./Images/section4/Arrow-RIGHT.svg);
+    position: relative;
+    left: 9em;
+    top: .1em;
+}
+
+.sec4-con-r {
+    width: 50%;
+    height: 50vh;
+}
+
+.TraditionalFoodimg {
+    width: 500px;
+}
+
+.sec5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec5-imgs {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+
+.cd-ft {
+    background-color: #F17228 !important;
+}
+
+.sec5-btn {
+    color: #ffff !important;
+    font-weight: bold !important;
+}
+
+.card-title.sec5-cd-t {
+    font-weight: bold !important;
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.fool-con {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.line {
+    width: 80%;
+    height: .1em;
+    background-color: #424242;
+    position: relative;
+    left: 6em;
+}
+
+.foo-l {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5em;
+    justify-content: space-around;
+    color: #ffff;
+}
+
+ul,
+li {
+
+    list-style: none;
+    font-weight: 400;
+    size: 1em;
+}
+
+.foo-p {
+    size: 1.2em;
+    position: relative;
+    left: 2.3em;
+}
+
+.foo-r {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: relative;
+    left: 5em;
+    top: 2em;
+}
+
+.foo-in {
+    background: #424242;
+    border-radius: 2px;
+    height: 2.3em;
+    border: 0px solid;
+    position: relative;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    
+}
+
+.mail-icon{
+     background-color:  #424242;
+     height: auto; 
+     width: 2.5em;
+     border-top-left-radius: 4px;
+     border-bottom-left-radius: 4px;
+
+}
+
+
+.subs-btn {
+    color: #ffff !important;
+    font-family: 'Source Sans 3', sans-serif !important;
+    font-weight: 700 !important;
+    background: linear-gradient(92.84deg, #FFB800 -47.72%, #FF8A00 136.81%);
+    margin-left: 1em;
+    height:3em;   
+}
+input:focus {
+    outline: none;
+ }
+.foo-end-con {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 6em;
+
+}
+
+.foo-end-con>div>p {
+    color: #ffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
